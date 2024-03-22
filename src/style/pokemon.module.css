@@ -1,0 +1,51 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+/* Styles spécifiques */
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.detail {
+  flex-basis: 48%; /* Ajustement pour éviter le débordement */
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 100%; /* Utiliser la largeur maximale */
+  height: auto; /* Ajustement automatique de la hauteur */
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  color: #555555;
+}
+
+.info {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #777777;
+}
+
+.info span {
+  color: #333333;
+}
